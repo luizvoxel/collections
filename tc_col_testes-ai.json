@@ -1,0 +1,27 @@
+{
+    "_id": "fa59959a-fc9c-41b4-a5c9-92ca5c941c0c",
+    "colName": "Testes AI",
+    "created": "2024-02-27T23:06:13.741Z",
+    "sortNum": 120000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c2b0df0b-da70-47db-a400-6be9588b7657",
+            "colId": "fa59959a-fc9c-41b4-a5c9-92ca5c941c0c",
+            "containerId": "",
+            "name": "Teste Trained AI",
+            "url": "http://192.168.0.63:8000/classify_question?question= \"Qual documentos precisa para embaracar em um cruzeiro?\"",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.772Z",
+            "modified": "2024-02-27T23:06:13.772Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "question",
+                    "value": " \"Qual documentos precisa para embaracar em um cruzeiro?\""
+                }
+            ]
+        }
+    ]
+}

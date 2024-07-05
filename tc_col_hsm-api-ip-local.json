@@ -1,0 +1,137 @@
+{
+    "_id": "645efec8-7679-47f8-a2aa-793e6f615a12",
+    "colName": "HSM API IP Local",
+    "created": "2024-02-27T23:06:13.491Z",
+    "sortNum": 80000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a13bf0e2-693e-4e0b-9a26-a09a79e1278d",
+            "colId": "645efec8-7679-47f8-a2aa-793e6f615a12",
+            "containerId": "",
+            "name": "Envia HSM 1VAR IP Local",
+            "url": "http://127.0.0.1:5000/hsm_api/envia_hsm",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.527Z",
+            "modified": "2024-02-27T23:06:13.527Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"numero_whatsapp\": \"5511991331240\",\r\n    \"hsm_namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\r\n    \"hsm_elementName\": \"pre_viagem\",\r\n    \"LinkArquivoAnexo\": \"\",\r\n    \"NomeArquivoAnexo\": \"\",\r\n    \"variaveis\": \"{\\\"name\\\": \\\"1\\\", \\\"type\\\": \\\"text\\\", \\\"text\\\": \\\"LuferBala\\\"}\"\r\n}"
+            }
+        },
+        {
+            "_id": "a3dc965c-fdb4-40fb-a351-18f97c45ea6e",
+            "colId": "645efec8-7679-47f8-a2aa-793e6f615a12",
+            "containerId": "",
+            "name": "Testa HSM IP Local",
+            "url": "http://127.0.0.1:5000/hsm_api/testa_hsm_hiplatform",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-27T23:06:13.528Z",
+            "modified": "2024-02-27T23:06:13.528Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"numero_whatsapp\": \"5511991331240\",\r\n    \"hsm_namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\r\n    \"hsm_elementName\": \"pre_viagem\",\r\n    \"LinkArquivoAnexo\": \"\",\r\n    \"NomeArquivoAnexo\": \"\",\r\n    \"variaveis\": \"{\\\"name\\\": \\\"1\\\", \\\"type\\\": \\\"text\\\", \\\"text\\\": \\\"LuferBala\\\"}\"\r\n}"
+            }
+        },
+        {
+            "_id": "b4e30ffe-a463-4ce4-a38d-138cbf7a59dc",
+            "colId": "645efec8-7679-47f8-a2aa-793e6f615a12",
+            "containerId": "",
+            "name": "EnviaHSMfromFile (LinkPagto.SQL) IP Local",
+            "url": "http://127.0.0.1:5050/hsm_api/envia_hsm_from_file",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-27T23:06:13.529Z",
+            "modified": "2024-02-27T23:06:13.529Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"sql_arquivo_local\": \"HSM_SQL_EnviaLinkPagamento.sql\",\r\n    \"executar\": fals\r\n}"
+            }
+        },
+        {
+            "_id": "424fe9c0-e77a-4542-b493-5cf65bafc1d4",
+            "colId": "645efec8-7679-47f8-a2aa-793e6f615a12",
+            "containerId": "",
+            "name": "EnviaHSMfromExcel IP Local",
+            "url": "http://127.0.0.1:5050/hsm_api/envia_hsm_from_file",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-27T23:06:13.530Z",
+            "modified": "2024-02-27T23:06:13.530Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"link_arquivo_excel\": \"https://docs.google.com/spreadsheets/d/1AkQxTllQ9Avt03n1ZLneRYysay5CoYgL/edit?usp=sharing&ouid=112921513233014206017&rtpof=true&sd=true\",\r\n    \"executar\": false\r\n}"
+            }
+        },
+        {
+            "_id": "515ab6cf-9684-414c-ab68-8ec4a586f4d2",
+            "colId": "645efec8-7679-47f8-a2aa-793e6f615a12",
+            "containerId": "",
+            "name": "EnviaHSMfromFile (Voucher.SQL) IP Local",
+            "url": "http://127.0.0.1:5050/hsm_api/envia_hsm_from_file",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-27T23:06:13.531Z",
+            "modified": "2024-02-27T23:06:13.531Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"sql_arquivo_local\": \"HSM_SQL_Voucher.sql\",\r\n    \"executar\": false\r\n}"
+            }
+        },
+        {
+            "_id": "b96662d1-01a1-4e69-81fa-d24dbcf49701",
+            "colId": "645efec8-7679-47f8-a2aa-793e6f615a12",
+            "containerId": "",
+            "name": "Atualiza Status HSMs",
+            "url": "http://127.0.0.1:5050/hsm_api/atualiza_status_mensagens",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-27T23:06:13.532Z",
+            "modified": "2024-02-27T23:06:13.532Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"data_inicial\": \"25/09/2023 18:00:00\",\r\n    \"data_final\": \"25/09/2023 18:00:00\", \r\n    \"executar\" : false\r\n}"
+            }
+        },
+        {
+            "_id": "b17cd064-90c9-43dc-bca8-0f7a0298744a",
+            "colId": "645efec8-7679-47f8-a2aa-793e6f615a12",
+            "containerId": "",
+            "name": "Download Excel",
+            "url": "http://127.0.0.1:5000/Download_Excel",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-27T23:06:13.533Z",
+            "modified": "2024-02-27T23:06:13.533Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"LINK\": \"https://drive.google.com/uc?id=1dLE_2gl9U3XFZvtqG_tx8mI0BCdzYoMo\"\r\n}"
+            }
+        },
+        {
+            "_id": "1a4a6902-c477-4477-986d-344e1dfc2d30",
+            "colId": "645efec8-7679-47f8-a2aa-793e6f615a12",
+            "containerId": "",
+            "name": "Pega Arquivos SQL IP Local",
+            "url": "http://127.0.0.1:5050/hsm_api/pega_arquivos_sql",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-02-27T23:06:13.534Z",
+            "modified": "2024-02-27T23:06:13.534Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n}   "
+            }
+        }
+    ]
+}

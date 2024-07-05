@@ -1,0 +1,165 @@
+{
+    "_id": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+    "colName": "Grupos Costa Producao VB-VM",
+    "created": "2024-02-27T22:53:44.930Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "58c85e31-5b04-4625-a79b-90e2aec6009c",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Checa Arquivos IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/checaarquivos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T22:53:44.952Z",
+            "modified": "2024-02-27T22:53:44.952Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n}"
+            }
+        },
+        {
+            "_id": "d47cc0ea-782d-4f13-ba38-057f44ab8e05",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Atualiza Arquivos IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/atualizaarquivos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-27T22:53:44.953Z",
+            "modified": "2024-02-27T22:53:44.953Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"link_excel\": \"https://docs.google.com/spreadsheets/d/127zSNz0XCGewYbMRvM_eFGrkpuW23lkm/edit?usp=sharing&ouid=112921513233014206017&rtpof=true&sd=true\",\r\n    \"link_json\": \"https://drive.google.com/file/d/1vU_4dX_UaKDPNlR417vkNSl2swCr91bh/view?usp=sharing\"\r\n}"
+            }
+        },
+        {
+            "_id": "3ca6f0db-5230-49b3-80d1-67174849f6b8",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Refresh Arquivos IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/RefreshArquivos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-27T22:53:44.954Z",
+            "modified": "2024-02-27T22:53:55.862Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ae1e9cff-d559-470d-a82d-f79b799b8b3c",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Lista Grupos IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/listagruposcosta",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-27T22:53:44.955Z",
+            "modified": "2024-02-27T22:59:25.859Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"     \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a9e1794b-a55d-4c55-81be-c43b24c733c3",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Lista Subgrupos IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/listasubgruposcosta",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-27T22:53:44.956Z",
+            "modified": "2024-02-27T23:08:54.428Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"num_grupo\": 2,\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"\n\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5bd415a2-6f6d-4123-a5d0-6336a367ce57",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Lista Saidas IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/listasaidasgruposcosta",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-27T22:53:44.958Z",
+            "modified": "2024-02-29T22:15:29.252Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"num_grupo\": 1, \n    \"num_subgrupo\": 1,\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f2095eaa-fcd5-45b3-8da1-0e27d4333ddf",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Lista Cabines IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/listacabinesgruposcosta",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-27T22:53:44.959Z",
+            "modified": "2024-02-27T22:53:44.959Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"num_grupo\": 1,\r\n    \"num_subgrupo\": 1,\r\n    \"num_saida\": 1,\r\n    \"eMail\": \"luiz@viajarbarato.com.br\",\r\n    \"NumeroWhatsapp\": \"5511991331240\",\r\n    \"NomeWhatsapp\": \"Luiz\"\r\n}"
+            }
+        },
+        {
+            "_id": "965fccb7-7056-4c26-8817-c07b198f604a",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Lista Acomodacoes Cabines IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/listaacomodacoescabinesgruposcosta",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-02-27T22:53:44.960Z",
+            "modified": "2024-02-27T22:53:44.960Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"num_grupo\": 1,\r\n    \"num_subgrupo\": 1,\r\n    \"num_saida\": 1,\r\n    \"num_cabine\": 1,\r\n    \"eMail\": \"luiz@viajarbarato.com.br\",\r\n    \"NumeroWhatsapp\": \"5511991331240\",\r\n    \"NomeWhatsapp\": \"Luiz\"\r\n}"
+            }
+        },
+        {
+            "_id": "5a77a2c0-8597-4b7f-9ff4-185c51522a98",
+            "colId": "c971b1e2-b1f7-4704-a352-7e9d72268cf0",
+            "containerId": "",
+            "name": "Num Passageiros Cabines IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/numpassageirosgruposcosta",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-02-27T22:53:44.961Z",
+            "modified": "2024-02-27T22:53:44.961Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"num_grupo\": 1, \r\n    \"num_subgrupo\": 1,\r\n    \"num_saida\": 1,\r\n    \"num_cabine\": 1,\r\n    \"num_acomodacao\": 1,\r\n    \"eMail\": \"luiz@viajarbarato.com.br\",\r\n    \"NumeroWhatsapp\": \"5511991331240\",\r\n    \"NomeWhatsapp\": \"Luiz\"\r\n}"
+            }
+        }
+    ]
+}

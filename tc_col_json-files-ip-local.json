@@ -1,0 +1,131 @@
+{
+    "_id": "8b91137b-f024-4f9b-87a9-1193acf78f8e",
+    "colName": "Json Files IP Local",
+    "created": "2024-02-27T23:06:13.615Z",
+    "sortNum": 160000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bb9dc06f-b708-432a-b6f8-1de20aefdab7",
+            "colId": "8b91137b-f024-4f9b-87a9-1193acf78f8e",
+            "containerId": "",
+            "name": "PegaNomeRender Local",
+            "url": "http://127.0.0.1:5000/json_files/pega_nome_render",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.646Z",
+            "modified": "2024-05-07T23:31:47.168Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n    \"hi_consumer_question\": \"#render_teste123\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f96e183c-bd2a-4c6d-a5fb-aa3619f1c1c4",
+            "colId": "8b91137b-f024-4f9b-87a9-1193acf78f8e",
+            "containerId": "",
+            "name": "RefreshJson Local",
+            "url": "http://127.0.0.1:5000/json_files/refresh_json",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-27T23:06:13.647Z",
+            "modified": "2024-07-04T16:42:58.974Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n    \"avm_repo_path\": \"c:\\\\dev\\\\json_files\",\n    \"git_origin\": \"origin\",\n    \"git_branch\": \"main\",\n\n    \"aaNomeArquivoRender\": \"Tests/BotPopup.V2\", \n    \"NomeArquivoRender\": \"Tests/TesteDB\", \n    \"aNomeArquivoRender\": \"Libs/AbreTicket\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "81f83418-39e1-4016-aec2-414efd566fc0",
+            "colId": "8b91137b-f024-4f9b-87a9-1193acf78f8e",
+            "containerId": "",
+            "name": "ListaArquivos Local",
+            "url": "http://127.0.0.1:5000/json_files/lista_arquivos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-27T23:06:13.648Z",
+            "modified": "2024-03-04T22:07:30.805Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n    \"SoNomes\": true\n}",
+                "form": []
+            },
+            "reqType": "post",
+            "tests": []
+        },
+        {
+            "_id": "8764c93c-4fee-4d75-b082-ee3735f09825",
+            "colId": "8b91137b-f024-4f9b-87a9-1193acf78f8e",
+            "containerId": "",
+            "name": "Render Local",
+            "url": "http://127.0.0.1:5000/json_files/render_json",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-27T23:06:13.649Z",
+            "modified": "2024-07-04T16:34:27.287Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"aaNomeArquivoRender\": \"Tests/BotPopup.V2\",\n\"aaNomeArquivoRender\": \"Libs/AbreTicket\",\n\"NomeArquivoRender\": \"Tests/TesteDB\",\n\n\"IndexRender\" : 0,\n\n\"Tem_PerguntaNumeroRender\": \"False\",\n\"RespostaNumeroRender\": 1,\n\n\"RespostaTextoRender\": \"\",\n\"Tem_PerguntaTextoRender\": \"False\",\n\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n    \"client_id\": \"213c9c2b-da4b-46cc-9b09-0a708ed8b135\",  \n    \"linha_planilha\": 6,\n    \"navegacao\": [\n      13,\n      17,\n      29,\n      41,\n      53,\n      65,\n      77,\n      89\n    ]\n  }\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "68c8521f-852d-4e5b-a111-75e792ed400e",
+            "colId": "8b91137b-f024-4f9b-87a9-1193acf78f8e",
+            "containerId": "",
+            "name": "RefreshXls Local",
+            "url": "http://127.0.0.1:5000/json_files/refresh_xls",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2024-03-04T21:46:12.729Z",
+            "modified": "2024-07-02T19:25:35.831Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n    \"arquivo_xls\": \"GruposCosta/GruposCosta2425.xlsx\", \n    \"tab_xls\": \"bot\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "8293e2de-9ffd-466b-b442-245ff6781c99",
+            "colId": "8b91137b-f024-4f9b-87a9-1193acf78f8e",
+            "containerId": "",
+            "name": "Render Local AbreTicket",
+            "url": "http://127.0.0.1:5000/json_files/render_json",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-05-28T14:24:05.704Z",
+            "modified": "2024-05-29T13:05:21.547Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\n    \"eMail\": \"$$email\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n\"NomeArquivoRender\": \"teste\",\n\n    \"RespostaNumeroRender\": 1,\n\n    \"RespostaTextoRender\": \"email\",\n\n   \"Tem_PerguntaNumeroRender\": \"True\",\n\n    \"Tem_PerguntaTextoRender\": \"False\",\n\n    \"Tem_MsgRender\": \"True\", \n\n    \"IndexRender\" : 10,\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n  \"CPF\": \"cpf\",\n  \"DataNasc\": \"nasc\",\n  \"LocalNasc\": \"nasc\",\n  \"NomePax\": \"nome\",\n  \"RG\": \"rg\",\n  \"Telefone\": \"tel\",\n  \"codigo_saida\": \"PA07250105\",\n  \"emailpax\": \"email\",\n  \"linha_planilha\": 6,\n  \"loc_grupo\": \"AHCA6\",\n  \"navegacao\": [\n    8,\n    16\n  ],\n  \"num_adultos\": 1,\n  \"num_criancas\": 0,\n  \"parcelas\": 12,\n  \"tipo_acomodacao\": \"Individual\",\n  \"tipo_cabine\": \"Interna\",\n  \"valor_parcela\": \"629.17\",\n  \"valor_tarifa\": 5730,\n  \"valor_taxas\": 1820,\n  \"valor_total\": 7550\n}\n\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f5cfa061-13c3-4821-931f-7267791efdbb",
+            "colId": "8b91137b-f024-4f9b-87a9-1193acf78f8e",
+            "containerId": "",
+            "name": "RefreshJsons Local",
+            "url": "http://127.0.0.1:5000/json_files/refresh_jsons",
+            "method": "POST",
+            "sortNum": 22500,
+            "created": "2024-06-07T20:07:01.183Z",
+            "modified": "2024-06-07T20:25:20.415Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n    \n    \"vm_repo_path\": \"c:\\\\dev\\\\json_files\",\n    \"git_origin\": \"origin\",\n    \"git_branch\": \"main\"\n}",
+                "form": []
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "_id": "8a443e63-4816-443a-87ca-2e469a38ec30",
+    "colName": "JsonFiles Local",
+    "created": "2024-05-31T22:19:04.712Z",
+    "sortNum": 20000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e620de1d-b5d2-469e-a0a4-7efad71a9332",
+            "colId": "8a443e63-4816-443a-87ca-2e469a38ec30",
+            "containerId": "",
+            "name": "Render Local",
+            "url": "http://127.0.0.1:5000/json_files/render_json",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-31T22:19:22.362Z",
+            "modified": "2024-06-01T18:09:56.238Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"IndexRender\" : 0,\n  \"Tem_PerguntaNumeroRender\": \"True\",\n  \"RespostaNumeroRender\": 1,\n\n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"\",\n  \n  \"eMail\": \"luiz@viajarbarato.com.br\",\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n  \"NomeArquivoRender\": \"teste\",\n  \"Tem_MsgRender\": \"True\", \n  \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n    \"linha_planilha\": 7,\n    \"menu_index_lista_acomodacoes\": 9,\n    \"menu_index_lista_cabines\": 6,\n    \"navegacao\": [\n      6,\n      10,\n      19,\n      28,\n      37,\n      46,\n      55,\n      64\n    ]\n}\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "c93ebc7e-037a-4677-b852-fb66153252b8",
+            "colId": "8a443e63-4816-443a-87ca-2e469a38ec30",
+            "containerId": "",
+            "name": "RefreshJson Local",
+            "url": "http://127.0.0.1:5000/json_files/refresh_json",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-05-31T23:10:01.805Z",
+            "modified": "2024-06-01T04:42:17.240Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n   \"eMail\": \"luiz@viajarbarato.com.br\",\r\n    \"NumeroWhatsapp\": \"5511991331240\",\r\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\r\n    \"NomeArquivoRender\": \"Libs/AbreTicket\"\r\n}",
+                "form": []
+            }
+        }
+    ]
+}

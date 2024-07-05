@@ -1,0 +1,212 @@
+{
+    "_id": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+    "colName": "Hi Platform Ticket API",
+    "created": "2024-02-27T23:06:13.274Z",
+    "sortNum": 50000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e8b6dd9e-5ef0-40bb-8a0b-eeb3caa19088",
+            "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+            "containerId": "",
+            "name": "Pega Departamentos",
+            "url": "https://api.directtalk.com.br/1.5/ticket/mailaccounts?departmentId=28b683cd-8e31-494d-97aa-480ecedceee6",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.305Z",
+            "modified": "2024-05-21T20:43:35.950Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "departmentId",
+                    "value": "28b683cd-8e31-494d-97aa-480ecedceee6",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "afe6deb3-afad-4c77-98d1-7e146350f3e9",
+            "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+            "containerId": "",
+            "name": "Users",
+            "url": "https://api.directtalk.com.br/1.5/ticket/mailaccounts?departmentId=28b683cd-8e31-494d-97aa-480ecedceee6",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-27T23:06:13.306Z",
+            "modified": "2024-05-21T20:43:47.701Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "departmentId",
+                    "value": "28b683cd-8e31-494d-97aa-480ecedceee6",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "a16fb150-6d43-41d9-9ac4-f466a87320bb",
+            "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+            "containerId": "",
+            "name": "Pega eMails",
+            "url": "https://api.directtalk.com.br/1.5/ticket/mailaccounts?departmentId=28b683cd-8e31-494d-97aa-480ecedceee6",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-27T23:06:13.307Z",
+            "modified": "2024-05-29T18:50:23.475Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "departmentId",
+                    "value": "28b683cd-8e31-494d-97aa-480ecedceee6",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "c70edf10-2df7-421a-a399-3d7e91adeab6",
+            "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+            "containerId": "",
+            "name": "Hi_AbreTicket",
+            "url": "https://api.directtalk.com.br/1.5/ticket/tickets",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-27T23:06:13.308Z",
+            "modified": "2024-05-29T15:27:21.155Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n\t\"creator\": \"68cd1318-ea87-4bab-8645-4ecdfb9f6138\",\n\t\"subject\": \"Teste tkt Luiz\",\n\t\"description\": 'Navio: Costa Pacífica\\nData: 05/01/25 - 7 noites\\nItinerário: Santos/Ilhabela/Porto Belo/Balneário Camboriú/Angra dos Reis/Rio de Janeiro/Santos\\nTIpo Cabine: Interna\\nAcomodacao: Individual\\nValor Tarifa: R$5730\\nValor Taxas: R$1820\\nValor Total: R$ 7550\\nParcelas: 12X de R$629.17\\nCodigo Saida: PA07250105\\nLoc Grupo: AHCA6',\n\t\"type\": \"97945b08-6432-4685-a83e-bae2898c139e\",\n\t\"group\": \"5e02cf62-f285-4440-8a95-d51aaf95ae62\",\n\t\"state\": \"85778fdb-fb31-11e4-83fb-122473ed82c1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d9fa806c-d073-4378-9f5d-82213fb83634",
+            "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+            "containerId": "",
+            "name": "Hi_AbreTicket Copy",
+            "url": "https://api.directtalk.com.br/1.5/ticket/tickets",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-05-21T20:46:51.093Z",
+            "modified": "2024-05-21T20:52:49.280Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"creator\": \"f60b53da-b8b5-428e-afc7-136646905cd2\",\n    \"subject\": \"[WPP BOT] Compra - Bloqueio Costa - $$hi_current_date $$hi_current_hour\",\n    \"description\": \"Do Luiz com campo\",\n\n    \"type\": \"97945b08-6432-4685-a83e-bae2898c139e\",\n    \"group\": \"55da5021-1464-42a7-a875-c50b72bf28a7\",\n    \"state\": \"85778fdb-fb31-11e4-83fb-122473ed82c1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "45048c37-e53f-43f5-a674-8a5af605c2a3",
+            "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+            "containerId": "",
+            "name": "GetContacts",
+            "url": "https://api.directtalk.com.br/1.10/info/contacts?startDate=1717286399&endDate=1718755199&pageNumber=3&pageSize=1000\\",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-06-19T15:20:00.944Z",
+            "modified": "2024-06-19T15:23:31.878Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "startDate",
+                    "value": "1717286399",
+                    "isPath": false
+                },
+                {
+                    "name": "endDate",
+                    "value": "1718755199",
+                    "isPath": false
+                },
+                {
+                    "name": "pageNumber",
+                    "value": "3",
+                    "isPath": false
+                },
+                {
+                    "name": "pageSize",
+                    "value": "1000\\",
+                    "isPath": false
+                }
+            ]
+        }
+    ]
+}

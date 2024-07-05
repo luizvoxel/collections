@@ -1,0 +1,183 @@
+{
+    "_id": "85836565-5335-4d14-b6c0-5c42a2a73334",
+    "colName": "Grupos Costa IP Local",
+    "created": "2024-02-27T23:06:13.205Z",
+    "sortNum": 40000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "887c9b0f-5cdb-48e8-a096-08a7d9856ea3",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Atualiza Arquivos IP Local",
+            "url": "http://127.0.0.1:5000/grupos/atualizaarquivos",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.242Z",
+            "modified": "2024-02-27T23:06:13.242Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"link_excel\": \"https://docs.google.com/spreadsheets/d/127zSNz0XCGewYbMRvM_eFGrkpuW23lkm/edit?usp=sharing&ouid=112921513233014206017&rtpof=true&sd=true\",\r\n    \"link_json\": \"https://drive.google.com/file/d/1vU_4dX_UaKDPNlR417vkNSl2swCr91bh/view?usp=sharing\"\r\n}"
+            }
+        },
+        {
+            "_id": "dabf1d65-4edb-4752-b223-57be888f1aae",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Refresh Arquivos IP Local",
+            "url": "http://127.0.0.1:5000/grupos/RefreshArquivos",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-27T23:06:13.243Z",
+            "modified": "2024-02-27T23:06:13.243Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"link_excel\": \"https://docs.google.com/spreadsheets/d/127zSNz0XCGewYbMRvM_eFGrkpuW23lkm/edit?usp=sharing&ouid=112921513233014206017&rtpof=true&sd=true\",\r\n    \"link_json\": \"https://drive.google.com/file/d/1vU_4dX_UaKDPNlR417vkNSl2swCr91bh/view?usp=sharing\"\r\n}"
+            }
+        },
+        {
+            "_id": "44f534a6-7e52-4f6e-9fa6-fd7e7400798d",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Checa Arquivos IP Local",
+            "url": "http://127.0.0.1:5000/grupos/checaarquivos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-27T23:06:13.244Z",
+            "modified": "2024-02-29T22:12:53.105Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7fc27821-379e-47f7-a3ed-2d59333251a4",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Lista Grupos IP Local",
+            "url": "http://127.0.0.1:5000/grupos/listagruposcosta",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-27T23:06:13.245Z",
+            "modified": "2024-02-29T22:12:57.837Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2ed12d4c-7bb9-43e7-a12e-caf25ee54abb",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Lista Subgrupos IP Local",
+            "url": "http://127.0.0.1:5000/grupos/listasubgruposcosta",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-27T23:06:13.246Z",
+            "modified": "2024-02-29T22:13:01.694Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"num_grupo\": 1,\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a5288990-2df6-4abd-ac13-af49946ba29b",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Lista Saidas IP Local",
+            "url": "http://127.0.0.1:5000/grupos/listasaidasgruposcosta",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-27T23:06:13.247Z",
+            "modified": "2024-05-07T23:30:11.835Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"num_grupo\": 1, \n    \"num_subgrupo\": 1,\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e26642d8-c38d-470e-a3b6-afc3a9caa64f",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Lista Cabines IP Local",
+            "url": "http://127.0.0.1:5000/grupos/listacabinesgruposcosta",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-27T23:06:13.248Z",
+            "modified": "2024-05-07T23:30:15.796Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"num_grupo\": 1, \n    \"num_subgrupo\": 1,\n    \"num_saida\": 1,\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"    \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "76cc171b-4bdf-4e4a-a983-7b9d101e7ef7",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Lista Acomodacoes Cabines IP Local",
+            "url": "http://127.0.0.1:5000/grupos/listaacomodacoescabinesgruposcosta",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-02-27T23:06:13.249Z",
+            "modified": "2024-05-07T23:30:18.902Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"num_grupo\": 1, \n    \"num_subgrupo\": 1,\n    \"num_saida\": 1,\n    \"num_cabine\": 1,\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"    \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "d9a19b9f-5bee-4b7f-9686-4af03a74350c",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Num Passageiros Cabines IP Local",
+            "url": "http://127.0.0.1:5000/grupos/numpassageirosgruposcosta",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-02-27T23:06:13.250Z",
+            "modified": "2024-05-07T23:30:23.179Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"num_grupo\": 1, \n    \"num_subgrupo\": 1,\n    \"num_saida\": 1,\n    \"num_cabine\": 1,\n    \"num_acomodacao\": 5,\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz\"    \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "abbf0788-2070-4608-ad58-8a7dcdb8767c",
+            "colId": "85836565-5335-4d14-b6c0-5c42a2a73334",
+            "containerId": "",
+            "name": "Testa DB IP Local",
+            "url": "http://127.0.0.1:5000/grupos/TestaBD",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-02-27T23:06:13.251Z",
+            "modified": "2024-06-11T16:08:05.814Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"sql\": \"select top 10 * from StatusCompras order by 1 desc\"\n}",
+                "form": []
+            }
+        }
+    ]
+}

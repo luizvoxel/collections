@@ -1,0 +1,170 @@
+{
+    "_id": "f55c21fa-bc0e-407d-936e-aa067278d2c5",
+    "colName": "Hi Platform Whats HSM API",
+    "created": "2024-02-27T23:06:13.349Z",
+    "sortNum": 60000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "066669cf-e272-4e8b-a243-d60951a9c399",
+            "colId": "f55c21fa-bc0e-407d-936e-aa067278d2c5",
+            "containerId": "",
+            "name": "SendHSMComVoucher",
+            "url": "https://app.hiplatform.com/platform/whatsappconnect/1.0/api/message/template/6f47128d-f531-4a47-930d-d339be5be091",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.380Z",
+            "modified": "2024-02-27T23:06:13.380Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "to",
+                    "value": "5511991331240",
+                    "isDisabled": true
+                },
+                {
+                    "name": "namespace",
+                    "value": "eea479f1_3de4_4876_b75e_3e2e5920c53e",
+                    "isDisabled": true
+                },
+                {
+                    "name": "elementName",
+                    "value": "pre_viagem",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n   \"to\": \"5511991331240\",\r\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\r\n    \"elementName\": \"voucher\",\r\n    \"components\": [\r\n        {\r\n            \"type\": \"header\",\r\n            \"parameters\": [\r\n                {\r\n                    \"type\": \"document\",\r\n                    \"document\": {\r\n                        \"link\": \"https://drive.google.com/file/d/1wdxfrT5XkFBiZ3KtXVcKM8F0x1Nbi42H\",\r\n                        \"filename\": \"TesteCostaPDF\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}\r\n\r\n\r\n"
+            }
+        },
+        {
+            "_id": "a1b9bd6f-3b95-4dd3-afba-b94e0b04af3b",
+            "colId": "f55c21fa-bc0e-407d-936e-aa067278d2c5",
+            "containerId": "",
+            "name": "SendHSM com Variavel",
+            "url": "https://app.hiplatform.com/platform/whatsappconnect/1.0/api/message/template/6f47128d-f531-4a47-930d-d339be5be091",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-27T23:06:13.381Z",
+            "modified": "2024-02-27T23:06:13.381Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ==",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"to\": \"5511991331240\",\r\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\r\n    \"elementName\": \"pre_viagem\",\r\n    \"components\": [\r\n        {\r\n            \"type\": \"body\",\r\n            \"parameters\": [\r\n                {\r\n                    \"name\": \"1\",\r\n                    \"type\": \"text\",\r\n                    \"text\": \"Luiz\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+            }
+        },
+        {
+            "_id": "21a8e7be-b718-4528-b332-5183599957ea",
+            "colId": "f55c21fa-bc0e-407d-936e-aa067278d2c5",
+            "containerId": "",
+            "name": "http://177.94.215.187:80/getsales",
+            "url": "http://177.94.215.187:80/getsaledata",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-27T23:06:13.382Z",
+            "modified": "2024-02-27T23:06:13.382Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"NumeroWhatsapp\": \"+5511991331240\",\r\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\r\n    \"CodCompra\": \"\",\r\n    \"NumFile\": \"73298\"\r\n}"
+            }
+        },
+        {
+            "_id": "31c5dd9b-8af0-410c-bc32-d725501013c2",
+            "colId": "f55c21fa-bc0e-407d-936e-aa067278d2c5",
+            "containerId": "",
+            "name": "Relatorio HSMs",
+            "url": "https://app.hiplatform.com/platform/whatsappconnect/1.0/api/reports/hsm?pageSize=1000&pageNumber=1&origin=api&startDate=1694649600&endDate=1694735999",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-27T23:06:13.383Z",
+            "modified": "2024-02-27T23:06:13.383Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [
+                {
+                    "name": "pageSize",
+                    "value": "1000"
+                },
+                {
+                    "name": "pageNumber",
+                    "value": "1"
+                },
+                {
+                    "name": "origin",
+                    "value": "api"
+                },
+                {
+                    "name": "startDate",
+                    "value": "1694649600"
+                },
+                {
+                    "name": "endDate",
+                    "value": "1694735999"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": ""
+            }
+        }
+    ],
+    "settings": {
+        "preReq": {
+            "inlineScripts": [
+                {
+                    "script": [
+                        "pm.sendRequest(\"https://postman-echo.com/get\", function (err, response) {",
+                        "    console.log(response.json());",
+                        "});"
+                    ]
+                }
+            ]
+        },
+        "postReq": {
+            "inlineScripts": [
+                {
+                    "script": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    }
+}

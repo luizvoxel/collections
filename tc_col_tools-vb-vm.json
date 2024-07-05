@@ -1,0 +1,143 @@
+{
+    "_id": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+    "colName": "Tools VB-VM",
+    "created": "2024-02-27T23:06:13.147Z",
+    "sortNum": 152500,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fb84bc15-9412-4c82-b22f-df663908f96b",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "Identifica Contato WPP VB-VM",
+            "url": "http://34.151.218.45:5000/identificacontatowhatsapp",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.175Z",
+            "modified": "2024-04-22T20:23:15.208Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3d4fe82c-9ac2-4c4f-8e21-a70b4c1664cd",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "Seta Variaveis IP VB-VM",
+            "url": "http://34.151.218.45:5000/setavariaveis",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-27T23:06:13.176Z",
+            "modified": "2024-06-07T20:36:42.392Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"nome_usuario\": \"$$nome_usuario\", \n    \"whatsappid\": \"$$whatsappid\",\n    \"NomeGatilho\": \"Bom dia! Tenho uma dúvida sobre o pacote para Bariloche. Os passeios opcionais (Monte Catedral, Tronador, Cruise Andino) tem um mínimo de 2 pessoas.  No caso, se eu for sozinho (apto individual), tem alguma possibilidade de fazer estes passeios?\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "fa354699-f9bb-433e-bbac-7da7a9c8c291",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "Testa DB IP VB-VM",
+            "url": "http://34.151.218.45:5000/grupos/TestaBD",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-27T23:06:13.178Z",
+            "modified": "2024-02-27T23:06:13.178Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"num_grupo\": 1, \r\n    \"num_subgrupo\": 1,\r\n    \"num_saida\": 1,\r\n    \"num_cabine\": 1,\r\n    \"num_acomodacao\": 5\r\n}"
+            }
+        },
+        {
+            "_id": "b57f0a50-5714-4ed9-951f-1f9ee24ff16d",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "Lista Subgrupos IP VB Producao Kubernets",
+            "url": "http://34.160.233.106/grupos/listasubgruposcosta",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-27T23:06:13.179Z",
+            "modified": "2024-02-27T23:06:13.179Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"num_grupo\": 1\r\n}"
+            }
+        },
+        {
+            "_id": "1194effb-953f-42a7-bf44-04f16bc8cc83",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "Pega URL GrupoVIP IP VB-VM",
+            "url": "http://34.151.218.45:5000/pegaurlgrupovip",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-05-09T22:49:29.974Z",
+            "modified": "2024-05-09T22:50:27.976Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ade08172-bd7b-4745-ba8e-3d30d01a1456",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "Git Pull VM",
+            "url": "http://34.151.218.45:5000/gitpull",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-06-06T19:16:29.308Z",
+            "modified": "2024-06-07T19:13:44.043Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"vm_repo_path\": \"/vb_shared/json_files\",\n    \"git_origin\": \"origin\",\n    \"git_branch\": \"main\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "a5c7921b-a259-45b1-819c-f279a4cf6629",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "GA4 Send PageView VM",
+            "url": "http://34.151.218.45:5000/GA4_send_pageview",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-06-17T17:41:06.382Z",
+            "modified": "2024-06-17T19:41:07.863Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"client_id\": \"1234567890.9987654321\",\n    \"user_id\": \"luiz@viajarbarato.com.br\",\n    \"page_location\": \"https://wppbot.viajarbarato.com.br/teste/bot_test_thunder_vm\",\n    \"page_title\": \"BOT Test Tuhnder VM\",\n    \"page_path\": \"/teste/bot_test_thunder_vm\",\n    \"page_referrer\": \"http://wppbot.viajarbarato.com.br/referrer_test_thunder_vm\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "0a029444-0923-4158-81e1-0881d103e5f7",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "SQL Query VM",
+            "url": "http://34.151.218.45:5000/sql_query",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-06-17T22:16:11.293Z",
+            "modified": "2024-06-17T22:16:36.345Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"sql\": \"select top 10 * from clientes order by 1 desc\"\n}",
+                "form": []
+            }
+        }
+    ]
+}

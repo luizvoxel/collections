@@ -1,0 +1,25 @@
+{
+    "_id": "831e11f3-b29b-490a-9385-c881ae99b930",
+    "colName": "HiPlatform BOT Operacional",
+    "created": "2024-02-27T23:06:13.431Z",
+    "sortNum": 70000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1daebf86-e6fa-46d9-af39-2510dfbb0575",
+            "colId": "831e11f3-b29b-490a-9385-c881ae99b930",
+            "containerId": "",
+            "name": "Pega Vendas IP VB",
+            "url": "http://177.94.215.187:80/getsales",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.460Z",
+            "modified": "2024-02-27T23:06:13.460Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"eMail\": \"claudiavitori@gmail.com\",\r\n    \"NumeroWhatsapp\": \"$$whatsappid\",\r\n    \"NomeWhatsapp\": \"$$nome_usuario\",\r\n    \"CodCompra\": \"77000\",\r\n    \"CodFile\": \"10\"\r\n}"
+            }
+        }
+    ]
+}

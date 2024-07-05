@@ -1,0 +1,147 @@
+{
+    "_id": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+    "colName": "Tools IP Local",
+    "created": "2024-02-27T23:06:13.050Z",
+    "sortNum": 157500,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "edf04069-7192-4fef-8e25-f5bd998b8a0c",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "Seta Variaveis IP Local",
+            "url": "http://127.0.0.1:5000/setavariaveis",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-27T23:06:13.101Z",
+            "modified": "2024-05-07T16:20:56.522Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"num_grupo\": {\"a\":1, \"b\": \"ababa\\n\\rccc\"}, \n    \"num_subgrupo\": [\"aaa\",2,3,4],\n    \"num_saida\": true, \n    \"x\": \"sodfnsofnmsdofnsdofnidosnfsodfnodsnf\"\n    \n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "2fb6e7a5-cab3-4ddd-90f2-64f1be8de78e",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "Identifica Contato WPP IP Local",
+            "url": "http://127.0.0.1:5000/identificacontatowhatsapp",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-27T23:06:13.103Z",
+            "modified": "2024-05-09T22:49:02.430Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "aeedd444-72f0-4c9c-bfdb-0c897c608703",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "Pega URL GrupoVIP IP Local",
+            "url": "http://127.0.0.1:5000/pegaurlgrupovip",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-09T22:47:18.184Z",
+            "modified": "2024-05-09T22:51:00.224Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "621fa376-50a5-42be-8230-2f7901049ca3",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "Git Pull Local",
+            "url": "http://127.0.0.1:5000/gitpull",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-06-06T19:17:12.943Z",
+            "modified": "2024-06-06T19:17:12.943Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n    \"vm_repo_path\": \"G:\\\\My Drive\\\\dev\\\\vb_shared\",\r\n    \"git_origin\": \"origin\",\r\n    \"git_branch\": \"main\"\r\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "b1e38bc1-b039-475c-ace7-ae2298eed9b4",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "SQL Query IP Local",
+            "url": "http://127.0.0.1:5000/sql_query",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-06-11T16:50:49.566Z",
+            "modified": "2024-06-19T22:16:32.657Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"sql\": \"select top 10 * from clientes order by 1 desc\", \n  \"expiration\": 10\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6bb197d5-b26f-48ef-89a9-fa69ebf43405",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "GA4 Send PageView Local",
+            "url": "http://127.0.0.1:5000/GA4_send_pageview",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-06-17T16:57:07.214Z",
+            "modified": "2024-06-17T19:42:37.208Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"client_id\": \"1234567890.9987654321\",\n    \"user_id\": \"luiz@viajarbarato.com.br\",\n    \"page_location\": \"https://wppbot.viajarbarato.com.br/teste/bot_test_thunder_local\",\n    \"page_title\": \"BOT Test Thunder Local\",\n    \"page_path\": \"/teste/bot_test_thunder_local\",\n    \"page_referrer\": \"http://wppbot.viajarbarato.com.br/referrer_test_thunder_local\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "21ac1ee1-cb65-42e0-a1cb-d9eacb37bec2",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "Show Cache Local",
+            "url": "http://127.0.0.1:5000/showcache?show_data=true",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-06-19T17:37:38.123Z",
+            "modified": "2024-06-20T00:50:53.089Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "show_data",
+                    "value": "true",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "18bccc2f-7887-4747-bc93-c3aa6eaf6a88",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "SQL StoredProcedure Local",
+            "url": "http://127.0.0.1:5000/sql_query",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-06-19T18:27:17.991Z",
+            "modified": "2024-06-19T20:45:34.384Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"sql\": \"DECLARE @RC int\\n DECLARE @numeroWhatsapp varchar(20) = '5511991331240' DECLARE @email varchar(50) = 'luiz@viajarbarato.com.br'  DECLARE @nomeWhatsapp varchar(50) = 'LuizDoZap' ; EXECUTE @RC = [dbo].[IdentificaContatoWhatsapp] @numeroWhatsapp, @email, @nomeWhatsapp\\n \",\n    \"expiration\": 10\n}",
+                "form": []
+            }
+        }
+    ]
+}
