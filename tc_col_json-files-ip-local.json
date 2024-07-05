@@ -68,11 +68,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.649Z",
-            "modified": "2024-07-04T16:34:27.287Z",
+            "modified": "2024-07-05T21:24:30.940Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n\"aaNomeArquivoRender\": \"Tests/BotPopup.V2\",\n\"aaNomeArquivoRender\": \"Libs/AbreTicket\",\n\"NomeArquivoRender\": \"Tests/TesteDB\",\n\n\"IndexRender\" : 0,\n\n\"Tem_PerguntaNumeroRender\": \"False\",\n\"RespostaNumeroRender\": 1,\n\n\"RespostaTextoRender\": \"\",\n\"Tem_PerguntaTextoRender\": \"False\",\n\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n    \"client_id\": \"213c9c2b-da4b-46cc-9b09-0a708ed8b135\",  \n    \"linha_planilha\": 6,\n    \"navegacao\": [\n      13,\n      17,\n      29,\n      41,\n      53,\n      65,\n      77,\n      89\n    ]\n  }\n}",
+                "raw": "{\n\"aaNomeArquivoRender\": \"Tests/BotPopup.V22\",\n\"aaNomeArquivoRender\": \"Libs/AbreTicket\",\n\"NomeArquivoRender\": \"Tests/TesteDB\",\n\n\"IndexRender\" : 0,\n\n\"Tem_PerguntaNumeroRender\": \"False\",\n\"RespostaNumeroRender\": 1,\n\n\"RespostaTextoRender\": \"\",\n\"Tem_PerguntaTextoRender\": \"False\",\n\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n    \"client_id\": \"213c9c2b-da4b-46cc-9b09-0a708ed8b135\",  \n    \"linha_planilha\": 6,\n    \"navegacao\": [\n      13,\n      17,\n      29,\n      41,\n      53,\n      65,\n      77,\n      89\n    ]\n  }\n}",
                 "form": []
             }
         },
