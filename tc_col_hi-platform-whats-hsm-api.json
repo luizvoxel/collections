@@ -86,11 +86,12 @@
             "method": "POST",
             "sortNum": 30000,
             "created": "2024-02-27T23:06:13.382Z",
-            "modified": "2024-02-27T23:06:13.382Z",
+            "modified": "2024-07-16T22:04:22.164Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\r\n    \"NumeroWhatsapp\": \"+5511991331240\",\r\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\r\n    \"CodCompra\": \"\",\r\n    \"NumFile\": \"73298\"\r\n}"
+                "raw": "{\n    \"NumeroWhatsapp\": \"+5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n    \"CodCompra\": \"\",\n    \"NumFile\": \"73298\"\n}",
+                "form": []
             }
         },
         {

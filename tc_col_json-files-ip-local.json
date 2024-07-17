@@ -68,11 +68,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.649Z",
-            "modified": "2024-07-11T23:09:28.096Z",
+            "modified": "2024-07-16T18:40:36.138Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n\"NomeArquivoRender\": \"BotAtendimento\",\n\"aaNomeArquivoRender\": \"Tests/TesteRender\",\n\"aNomeArquivoRender\": \"Tests/TesteDB\",\n\n\"IndexRender\" : 0,\n\n\"Tem_PerguntaNumeroRender\": \"False\",\n\"RespostaNumeroRender\": 2,\n\n\"Tem_PerguntaTextoRender\": \"False\",\n\"RespostaTextoRender\": \"luiz@viajarbarato.com.br\",\n\n    \"aeMail\": \"$$eMail\",\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n    \"client_id\": \"213c9c2b-da4b-46cc-9b09-0a708ed8b135\",  \n    \"linha_planilha\": 6,\n    \"navegacao\": [\n     -1\n    ]\n  }\n}",
+                "raw": "{\n\"aaNomeArquivoRender\": \"BotAtendimento\",\n\"aNomeArquivoRender\": \"BotAtendimento/StatusClienteEmAndamento\",\n\"NomeArquivoRender\": \"TESTEBotPopup.V2\",\n\n\"IndexRender\" : 0,\n\n\"Tem_PerguntaNumeroRender\": \"True\",\n\"RespostaNumeroRender\": 1,\n\n\"Tem_PerguntaTextoRender\": \"False\",\n\"RespostaTextoRender\": \"s.stringari@gmail.com\",\n\n    \"aaeMail\": \"$$email\",\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"aeMail\": \"s.stringari@gmail.com\",\n    \n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n \"Variaveis\": {\n    \"client_id\": \"213c9c2b-da4b-46cc-9b09-0a708ed8b135\",\n    \"cod_cliente\": \"831\",\n    \"last_leitordados_index\": 0,\n    \"last_submenu_index\": 0,\n    \"linha_planilha\": 6,\n    \"navegacao\": [\n      -1,\n      2,\n      19\n    ],\n    \"status_cliente\": \"EM VIAGEM\",\n    \"status_cliente_info\": \"teste\"\n  }\n}",
                 "form": []
             }
         },

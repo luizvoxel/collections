@@ -30,11 +30,11 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-02-27T23:06:13.708Z",
-            "modified": "2024-06-10T18:53:57.561Z",
+            "modified": "2024-07-16T15:05:23.318Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n\n    \"vm_repo_path\": \"/vb_shared/json_files\",\n    \"git_origin\": \"origin\",\n    \"git_branch\": \"main\",\n    \n    \"NomeArquivoRender\": \"BotPopup\"\n}",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n\n    \"vm_repo_path\": \"/vb_shared/json_files\",\n    \"git_origin\": \"origin\",\n    \"git_branch\": \"main\",\n    \n    \"aaNomeArquivoRender\": \"BotAtendimento/StatusClienteEmAndamento\", \n    \"NomeArquivoRender\": \"Tests/TESTEBotPopup.V2\"\n}",
                 "form": []
             }
         },
@@ -66,11 +66,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.710Z",
-            "modified": "2024-07-10T20:41:48.382Z",
+            "modified": "2024-07-13T23:17:24.621Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n\n\"NomeArquivoRender\": \"BotPopup\",\n\"IndexRender\" : 0,\n\n\"Tem_PerguntaNumeroRender\": \"True\",\n\"RespostaNumeroRender\": 2,\n\n\"RespostaTextoRender\": \"\",\n\"Tem_PerguntaTextoRender\": \"False\",\n\n    \"eMail\": \"$$email\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n\n\n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n    \"linha_planilha\": 6,\n    \"navegacao\": [\n      -1,\n      2,\n      15\n    ]\n  }\n}",
+                "raw": "{\n\n\"NomeArquivoRender\": \"BotAtendimento\",\n\"IndexRender\" : 0,\n\n\"Tem_PerguntaNumeroRender\": \"False\",\n\"RespostaNumeroRender\": 2,\n\n\"RespostaTextoRender\": \"\",\n\"Tem_PerguntaTextoRender\": \"False\",\n\n    \"eMail\": \"$$email\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n\n\n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n    \"linha_planilha\": 6,\n    \"navegacao\": [\n      -1,\n      2,\n      15\n    ]\n  }\n}",
                 "form": []
             }
         },
@@ -100,11 +100,11 @@
             "method": "POST",
             "sortNum": 50000,
             "created": "2024-05-06T21:07:55.184Z",
-            "modified": "2024-05-06T21:08:09.276Z",
+            "modified": "2024-07-15T22:46:39.302Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n\n    \"eMail\": \"$$email\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n\"NomeArquivoRender\": \"BotPopup\",\n\n    \"RespostaNumeroRender\": 123,\n\n    \"RespostaTextoRender\": \"\",\n\n   \"Tem_PerguntaNumeroRender\": \"True\",\n\n    \"Tem_PerguntaTextoRender\": \"False\",\n\n    \"Tem_MsgRender\": \"True\", \n\n    \"IndexRender\" : 2,\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n  \"last_leitordados_index\": 0,\n  \"last_submenu_index\": 1,\n  \"navegacao\": [\n    -1\n  ],\n  \"nick\": \"\"\n}\n\n}",
+                "raw": "{\n\"NomeArquivoRender\": \"BotAtendimento\",\n\"aaNomeArquivoRender\": \"Tests/TesteRender\",\n\"aNomeArquivoRender\": \"Tests/TesteDB\",\n\n\"IndexRender\" : 1,\n\n\"Tem_PerguntaNumeroRender\": \"False\",\n\"RespostaNumeroRender\": 4,\n\n\"Tem_PerguntaTextoRender\": \"True\",\n\"RespostaTextoRender\": \"s.stringari@gmail.com\",\n\n    \"eMail\": \"$$email\",\n    \"aaaeMail\": \"luiz@viajarbarato.com.br\",\n    \"aeMail\": \"s.stringari@gmail.com\",\n    \n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n \"Variaveis\": {\n    \"client_id\": \"213c9c2b-da4b-46cc-9b09-0a708ed8b135\",\n    \"cod_cliente\": \"831\",\n    \"last_leitordados_index\": 0,\n    \"last_submenu_index\": 0,\n    \"linha_planilha\": 6,\n    \"navegacao\": [\n      -1\n    ],\n    \"status_cliente\": \"EM VIAGEM\",\n    \"status_cliente_info\": \"teste\"\n  }\n}",
                 "form": []
             }
         },

@@ -41,12 +41,12 @@
             "_id": "afe6deb3-afad-4c77-98d1-7e146350f3e9",
             "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
             "containerId": "",
-            "name": "Users",
-            "url": "https://api.directtalk.com.br/1.5/ticket/mailaccounts?departmentId=28b683cd-8e31-494d-97aa-480ecedceee6",
+            "name": "Grupos",
+            "url": "https://api.directtalk.com.br/1.5/ticket/groups?departmentId=28b683cd-8e31-494d-97aa-480ecedceee6",
             "method": "GET",
             "sortNum": 20000,
             "created": "2024-02-27T23:06:13.306Z",
-            "modified": "2024-05-21T20:43:47.701Z",
+            "modified": "2024-07-17T14:46:41.671Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -207,6 +207,36 @@
                     "isPath": false
                 }
             ]
+        },
+        {
+            "_id": "90dc7e0e-e367-4aa2-8691-28d00f965684",
+            "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+            "containerId": "",
+            "name": "Hi_CriaAtendimento",
+            "url": "https://chat-api.directtalk.com.br/chat",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-16T22:06:48.831Z",
+            "modified": "2024-07-17T15:22:54.821Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"name\": \"Luiz\",\n    \"origin\": \"origem atendimento\",\n    \"departmentId\": 4320\n}",
+                "form": []
+            }
         }
     ]
 }
