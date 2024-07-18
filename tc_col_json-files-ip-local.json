@@ -31,11 +31,11 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-02-27T23:06:13.647Z",
-            "modified": "2024-07-11T22:42:00.165Z",
+            "modified": "2024-07-18T00:43:39.159Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n    \"avm_repo_path\": \"c:\\\\dev\\\\json_files\",\n    \"git_origin\": \"origin\",\n    \"git_branch\": \"main\",\n\n    \"NomeArquivoRender\": \"BotAtendimento\", \n    \"aaNomeArquivoRender\": \"Tests/TesteDB\", \n    \"aNomeArquivoRender\": \"Libs/AbreTicket\"\n}",
+                "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n    \"avm_repo_path\": \"c:\\\\dev\\\\json_files\",\n    \"git_origin\": \"origin\",\n    \"git_branch\": \"main\",\n\n    \"aaNomeArquivoRender\": \"BotAtendimento\", \n    \"NomeArquivoRender\": \"BotAtendimento/StatusClienteEmAndamento\", \n    \"aNomeArquivoRender\": \"Libs/AbreTicket\"\n}",
                 "form": []
             }
         },
@@ -68,11 +68,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.649Z",
-            "modified": "2024-07-16T18:40:36.138Z",
+            "modified": "2024-07-18T00:00:23.744Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n\"aaNomeArquivoRender\": \"BotAtendimento\",\n\"aNomeArquivoRender\": \"BotAtendimento/StatusClienteEmAndamento\",\n\"NomeArquivoRender\": \"TESTEBotPopup.V2\",\n\n\"IndexRender\" : 0,\n\n\"Tem_PerguntaNumeroRender\": \"True\",\n\"RespostaNumeroRender\": 1,\n\n\"Tem_PerguntaTextoRender\": \"False\",\n\"RespostaTextoRender\": \"s.stringari@gmail.com\",\n\n    \"aaeMail\": \"$$email\",\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"aeMail\": \"s.stringari@gmail.com\",\n    \n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n \"Variaveis\": {\n    \"client_id\": \"213c9c2b-da4b-46cc-9b09-0a708ed8b135\",\n    \"cod_cliente\": \"831\",\n    \"last_leitordados_index\": 0,\n    \"last_submenu_index\": 0,\n    \"linha_planilha\": 6,\n    \"navegacao\": [\n      -1,\n      2,\n      19\n    ],\n    \"status_cliente\": \"EM VIAGEM\",\n    \"status_cliente_info\": \"teste\"\n  }\n}",
+                "raw": "{\n  \"NomeArquivoRender\": \"BotAtendimento\",\n  \"aNomeArquivoRender\": \"BotAtendimento/StatusClienteEmAndamento\",\n  \"aaaNomeArquivoRender\": \"TESTEBotPopup.V2\",\n  \"IndexRender\": 0,\n  \"Tem_PerguntaNumeroRender\": \"False\",\n  \"RespostaNumeroRender\": 3,\n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"miliza45@gmail.com\",\n  \"aaeMail\": \"$$email\",\n  \"aeMail\": \"luiz@viajarbarato.com.br\",\n  \"eMail\": \"miliza45@gmail.com\",\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\"Variaveis\": {\n    \"UF\": \"DF\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"243995\",\n    \"idade\": \"78\",\n    \"navegacao\": [\n      -1,\n      2,\n      4\n    ],\n    \"primeiro_nome\": \"MARIA\",\n    \"status_cliente\": \"EM ANDAMENTO\",\n    \"status_cliente_info\": \"teste\"\n  }\n}",
                 "form": []
             }
         },
