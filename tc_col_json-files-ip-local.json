@@ -68,11 +68,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.649Z",
-            "modified": "2024-07-25T19:21:17.055Z",
+            "modified": "2024-07-30T17:23:25.065Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"NomeArquivoRender\": \"BotAtendimento\",\n  \"IndexRender\": 7,\n  \n  \"Tem_PerguntaNumeroRender\": \"True\",\n  \"RespostaNumeroRender\": 2,\n  \n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"xxxtextoxxx\",\n  \n  \"aeMail\": \"luiz@viajarbarato.com.br\",\n  \"eMail\": \"teste@viajarbarato.com.br\",\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\n\"Variaveis\": {\n    \"UF\": \"MG\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"281434\",\n    \"idade\": \"55\",\n    \"linha_db\": {\n      \"BotAtendimento/IdentificaContatoWhatsapp.db:1\": 2\n    },\n    \"navegacao\": [\n      -1,\n      7,\n      12\n    ],\n    \"primeiro_nome\": \"MARCIO\",\n    \"status_cliente\": \"EM ANDAMENTO\",\n    \"status_cliente_info\": \"teste\"\n  }\n}",
+                "raw": "{\n  \"NomeArquivoRender\": \"Libs/ChecaHorarioAtendimento\",\n  \"IndexRender\": 7,\n  \n  \"Tem_PerguntaNumeroRender\": \"False\",\n  \"RespostaNumeroRender\": 2,\n  \n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"xxxtextoxxx\",\n  \n  \"aeMail\": \"luiz@viajarbarato.com.br\",\n  \"eMail\": \"teste@viajarbarato.com.br\",\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\n\"Variaveis\": {\n    \"UF\": \"MG\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"281434\",\n    \"idade\": \"55\",\n    \"linha_db\": {\n      \"BotAtendimento/IdentificaContatoWhatsapp.db:1\": 2\n    },\n    \"navegacao\": [\n      -1,\n      7,\n      12\n    ],\n    \"primeiro_nome\": \"MARCIO\",\n    \"status_cliente\": \"EM ANDAMENTO\",\n    \"status_cliente_info\": \"teste\"\n  }\n}",
                 "form": []
             }
         },
