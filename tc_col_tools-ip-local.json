@@ -48,11 +48,11 @@
             "method": "POST",
             "sortNum": 30000,
             "created": "2024-05-09T22:47:18.184Z",
-            "modified": "2024-07-11T21:31:54.965Z",
+            "modified": "2024-08-06T16:11:02.417Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\"\n}",
+                "raw": "{\n    \"NumeroWhatsapp\": \"5571991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\"\n}",
                 "form": []
             }
         },
