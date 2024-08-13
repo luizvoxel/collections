@@ -68,11 +68,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.649Z",
-            "modified": "2024-08-13T21:50:21.875Z",
+            "modified": "2024-08-13T22:45:38.322Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"aNomeArquivoRender\": \"Tests/Tree3\",\n  \"NomeArquivoRender\": \"BotAtendimento2\",\n  \"IndexRender\": 0,\n  \n  \"Tem_PerguntaNumeroRender\": \"False\",\n  \"RespostaNumeroRender\": 2,\n  \n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"xxxtextoxxx\",\n  \n  \"beMail\": \"luiz@viajarbarato.com.br\",\n  \"eMail\": \"teste@viajarbarato.com.br\",\n  \"aeMail\": \"marlenedesouzasilva@gmail.com\",\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\n\"Variaveis\": {\n    \"UF\": \"MT\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"256865\",\n    \"idade\": \"59\",\n    \"navegacao\": [\n      77,\n      81,\n      82\n    ],\n    \"primeiro_nome\": \"Marlene\"\n  }\n}",
+                "raw": "{\n  \"aNomeArquivoRender\": \"Tests/Tree3\",\n  \"NomeArquivoRender\": \"BotAtendimento2\",\n  \"IndexRender\": 0,\n  \n  \"Tem_PerguntaNumeroRender\": \"False\",\n  \"RespostaNumeroRender\": 2,\n  \n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"xxxtextoxxx\",\n  \n  \"eMail\": \"teste@viajarbarato.com.br\",\n  \"beMail\": \"luiz@viajarbarato.com.br\",\n  \"reembolso_eMail\": \"marlenedesouzasilva@gmail.com\",\n  \"semcontato_eMail\": \"margiacm@hotmail.com\",\n  \n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\n\"Variaveis\": {\n    \"UF\": \"MT\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"256865\",\n    \"idade\": \"59\",\n    \"navegacao\": [\n      77,\n      81,\n      82\n    ],\n    \"primeiro_nome\": \"Marlene\"\n  }\n}",
                 "form": []
             }
         },
