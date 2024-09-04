@@ -138,6 +138,25 @@
                 "raw": "{\n  \"sql\": \"select top 10 * from clientes order by 1 desc\"\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "a57dd192-a1fe-40e7-b652-e0eb2649c7c1",
+            "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
+            "containerId": "",
+            "name": "Show Cache VM",
+            "url": "http://34.151.218.45:5000/showcache?show_data=false",
+            "method": "GET",
+            "sortNum": 85000,
+            "created": "2024-09-03T20:06:23.298Z",
+            "modified": "2024-09-03T20:08:19.028Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "show_data",
+                    "value": "false",
+                    "isPath": false
+                }
+            ]
         }
     ]
 }
