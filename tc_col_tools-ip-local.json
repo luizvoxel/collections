@@ -165,16 +165,16 @@
             "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
             "containerId": "",
             "name": "GetFile Local",
-            "url": "http://127.0.0.1:5000/get_file?path=0068.pdf",
+            "url": "http://localhost:5000/get_file?path=vouchers/70902_-_PACOTE_BARILOCHE.pdf",
             "method": "GET",
             "sortNum": 80000,
             "created": "2024-09-06T01:20:12.671Z",
-            "modified": "2024-09-06T01:23:36.259Z",
+            "modified": "2024-09-06T13:42:11.257Z",
             "headers": [],
             "params": [
                 {
                     "name": "path",
-                    "value": "0068.pdf",
+                    "value": "vouchers/70902_-_PACOTE_BARILOCHE.pdf",
                     "isPath": false
                 }
             ]

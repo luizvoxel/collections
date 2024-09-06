@@ -74,15 +74,16 @@
             "colId": "fdd8fe07-8222-4520-8f14-f290b805852a",
             "containerId": "",
             "name": "Pega Arquivos SQL IP VB-VM",
-            "url": "http://34.151.218.45:5050/hsm_api/pega_arquivos_sql",
+            "url": "http://34.151.218.45:80/hsm_api/pega_arquivos_sql",
             "method": "POST",
             "sortNum": 50000,
             "created": "2024-02-27T23:06:13.585Z",
-            "modified": "2024-02-27T23:06:13.585Z",
+            "modified": "2024-09-06T12:00:52.860Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\r\n}   "
+                "raw": "{\n}   ",
+                "form": []
             }
         }
     ]
