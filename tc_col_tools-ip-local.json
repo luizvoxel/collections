@@ -159,6 +159,25 @@
                 "raw": "{\n    \"num_grupo\": {\"a\":1, \"b\": \"ababa\\n\\rccc\"}, \n    \"num_subgrupo\": [\"aaa\",2,3,4],\n    \"num_saida\": true, \n    \"x\": \"  linha 1   linha 2linha 3linha 10\n    \"\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "1cf86a8a-34f4-42cb-a85f-5edc454f29b2",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "GetFile Local",
+            "url": "http://127.0.0.1:5000/get_file?path=0068.pdf",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-09-06T01:20:12.671Z",
+            "modified": "2024-09-06T01:23:36.259Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "path",
+                    "value": "0068.pdf",
+                    "isPath": false
+                }
+            ]
         }
     ]
 }

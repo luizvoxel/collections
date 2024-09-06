@@ -14,7 +14,7 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-02-27T23:06:13.380Z",
-            "modified": "2024-02-27T23:06:13.380Z",
+            "modified": "2024-09-06T01:00:32.470Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -29,22 +29,26 @@
                 {
                     "name": "to",
                     "value": "5511991331240",
-                    "isDisabled": true
+                    "isDisabled": true,
+                    "isPath": false
                 },
                 {
                     "name": "namespace",
                     "value": "eea479f1_3de4_4876_b75e_3e2e5920c53e",
-                    "isDisabled": true
+                    "isDisabled": true,
+                    "isPath": false
                 },
                 {
                     "name": "elementName",
                     "value": "pre_viagem",
-                    "isDisabled": true
+                    "isDisabled": true,
+                    "isPath": false
                 }
             ],
             "body": {
                 "type": "json",
-                "raw": "{\r\n   \"to\": \"5511991331240\",\r\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\r\n    \"elementName\": \"voucher\",\r\n    \"components\": [\r\n        {\r\n            \"type\": \"header\",\r\n            \"parameters\": [\r\n                {\r\n                    \"type\": \"document\",\r\n                    \"document\": {\r\n                        \"link\": \"https://drive.google.com/file/d/1wdxfrT5XkFBiZ3KtXVcKM8F0x1Nbi42H\",\r\n                        \"filename\": \"TesteCostaPDF\"\r\n                    }\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}\r\n\r\n\r\n"
+                "raw": "{\n   \"to\": \"5511991331240\",\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\n    \"elementName\": \"voucher\",\n    \"components\": [\n        {\n            \"type\": \"header\",\n            \"parameters\": [\n                {\n                    \"type\": \"document\",\n                    \"document\": {\n                        \"link\": \"https://drive.google.com/file/d/1-SvOa2CxNo7GAF0Y85cj2b7IohhMagdg/view?usp=sharing\",\n                        \"filename\": \"AgoraFoi\"\n                    }\n                }\n            ]\n        }\n    ]\n}\n\n\n",
+                "form": []
             }
         },
         {
@@ -56,7 +60,7 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-02-27T23:06:13.381Z",
-            "modified": "2024-02-27T23:06:13.381Z",
+            "modified": "2024-09-06T00:53:55.389Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -74,7 +78,8 @@
             ],
             "body": {
                 "type": "json",
-                "raw": "{\r\n    \"to\": \"5511991331240\",\r\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\r\n    \"elementName\": \"pre_viagem\",\r\n    \"components\": [\r\n        {\r\n            \"type\": \"body\",\r\n            \"parameters\": [\r\n                {\r\n                    \"name\": \"1\",\r\n                    \"type\": \"text\",\r\n                    \"text\": \"Luiz\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}"
+                "raw": "{\n    \"to\": \"5511991331240\",\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\n    \"elementName\": \"pre_viagem\",\n    \"components\": [\n        {\n            \"type\": \"body\",\n            \"parameters\": [\n                {\n                    \"name\": \"1\",\n                    \"type\": \"text\",\n                    \"text\": \"Luiz\"\n                }\n            ]\n        }\n    ]\n}",
+                "form": []
             }
         },
         {
