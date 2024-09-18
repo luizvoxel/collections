@@ -127,15 +127,15 @@
             "colId": "6a03e081-8d47-47fc-ae81-69ee34857dc0",
             "containerId": "",
             "name": "SQL Query VM",
-            "url": "http://34.151.218.45:5000/sql_query",
+            "url": "http://34.151.218.45/sql_query",
             "method": "POST",
             "sortNum": 100000,
             "created": "2024-06-17T22:16:11.293Z",
-            "modified": "2024-06-17T22:16:36.345Z",
+            "modified": "2024-09-13T16:27:54.856Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"sql\": \"select top 10 * from clientes order by 1 desc\"\n}",
+                "raw": "{\n  \"sql\": \"EXECUTE [dbo].[WA_OfertasRemarketing] \\\"lecticia@viajarbarato.com.br\\\"\"\n}",
                 "form": []
             }
         },

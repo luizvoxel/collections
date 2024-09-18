@@ -124,6 +124,23 @@
                 "raw": "{\n    \"eMail\": \"luiz@viajarbarato.com.br\",\n    \"NumeroWhatsapp\": \"5511991331240\",\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n\n    \"vm_repo_path\": \"/vb_shared/json_files\",\n    \"git_origin\": \"origin\",\n    \"git_branch\": \"main\"\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "eca27a01-0de8-46ea-a0f4-33eddeb381e8",
+            "colId": "663ec400-5565-4685-947b-a7ee9ec7fa6a",
+            "containerId": "",
+            "name": "RefreshConfiguration VB-VM",
+            "url": "http://34.151.218.45/refresh_configuration",
+            "method": "POST",
+            "sortNum": 23750,
+            "created": "2024-09-18T02:41:22.341Z",
+            "modified": "2024-09-18T02:41:58.746Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n}",
+                "form": []
+            }
         }
     ]
 }

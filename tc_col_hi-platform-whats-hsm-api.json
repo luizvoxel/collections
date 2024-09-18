@@ -14,7 +14,7 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-02-27T23:06:13.380Z",
-            "modified": "2024-09-11T22:05:52.328Z",
+            "modified": "2024-09-16T22:43:12.992Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -47,7 +47,7 @@
             ],
             "body": {
                 "type": "json",
-                "raw": "{\n   \"to\": \"5511991331240\",\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\n    \"elementName\": \"voucher\",\n    \"components\": [\n        {\n            \"type\": \"header\",\n            \"parameters\": [\n                {\n                    \"type\": \"document\",\n                    \"document\": {\n                        \"link\": \"https://storage.googleapis.com/vb_vouchers/78936.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=bot-api-gcs%40molten-catalyst-397805.iam.gserviceaccount.com%2F20240911%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240911T220519Z&X-Goog-Expires=30&X-Goog-SignedHeaders=host&X-Goog-Signature=90119e886c8e530488eb9ca1698a90c43190c94c41d895e25f42655b7d66c52facda25041e688afb8f620d91e266cdce01841ff25c533383daad66294b4c47d7bf65ec93259c467045ce56b82c1acd1c43c54f341458e91582b828863996f71f2545d1145d70d656f29138a00d8da2a3aeda2e00259db6212a6180710b610e4ffe244561be47355d9df24e6113901b1182821c78322f31d9a27b4f66234b67d96fcc3e936141c6d66a72d10c78435215221a29b78bc59d18e8bac72ea4e706deff41f29025f18d376d6f480cb82f6ed4a04a1a2cab4a37fc6b2dfd83d35a9818db520030d4027bdec854a91f1f288cdd25d1b9cdc3553a59efb9713b4c56e398\",\n                        \"filename\": \"seuvoucher.pdf\",               \n                    }\n                }\n            ]\n        }\n    ]\n}\n\n\n",
+                "raw": "{\n   \"to\": \"5511991331240\",\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\n    \"elementName\": \"voucher\",\n    \"components\": [\n        {\n            \"type\": \"header\",\n            \"parameters\": [\n                {\n                    \"type\": \"document\",\n                    \"document\": {\n                        \"link\": \"https://storage.googleapis.com/vb_vouchers/1234.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=bot-api-gcs%40molten-catalyst-397805.iam.gserviceaccount.com%2F20240916%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240916T224253Z&X-Goog-Expires=60&X-Goog-SignedHeaders=host&X-Goog-Signature=944edc52fe5891569e5dca01e0d2ec1bfdf16d627e791832898466a9ed6b352ab3531c17251913ab5692b9e47844c861861ef373f92033236b67ce77581d64dcccb1d932900905e5ff0b0566e972b91438449a9962cb637c1600163d474c0f3353b5640330abe387a350d62dd650ff4c4ebac326cd896c24fdafc912d8a5bc4b34d0c4357e2b90c57f5a71043c80f3cef9ee2a8e3ad6daab4fa77d2b4c0e2beb121813c71ea3b2b07abb9f6630057c9a8e1b29958c4ce07bd4d09442cb6c6b9891d69b06729c4e2885215642d59a46b7c6109b31c0319b7d994f147bfa5db4de72bbb94a6117aa457417036a59a14b4e24897aeed02798f7d02107d9648f2b80\",\n                        \"filename\": \"seuvoucher.pdf\",               \n                    }\n                }\n            ]\n        }\n    ]\n}\n\n\n",
                 "form": []
             }
         },
@@ -60,7 +60,7 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-02-27T23:06:13.381Z",
-            "modified": "2024-09-06T00:53:55.389Z",
+            "modified": "2024-09-17T14:49:13.635Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -78,7 +78,7 @@
             ],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"to\": \"5511991331240\",\n    \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\n    \"elementName\": \"pre_viagem\",\n    \"components\": [\n        {\n            \"type\": \"body\",\n            \"parameters\": [\n                {\n                    \"name\": \"1\",\n                    \"type\": \"text\",\n                    \"text\": \"Luiz\"\n                }\n            ]\n        }\n    ]\n}",
+                "raw": "{\n  \"type\": \"json\",\n  \"to\": \"5511991331240\",\n  \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\n  \"elementName\": \"pre_viagem\",\n  \"components\": [\n    {\n      \"type\": \"body\",\n      \"parameters\": [\n        {\n          \"name\": \"1\",\n          \"type\": \"text\",\n          \"text\": \"Luiz\"\n        }\n      ]\n    }\n  ],\n  \"form\": []\n}",
                 "form": []
             }
         },
@@ -148,6 +148,68 @@
             "body": {
                 "type": "json",
                 "raw": ""
+            }
+        },
+        {
+            "_id": "f04e0634-8a95-4fdb-a341-7c796fc9a150",
+            "colId": "f55c21fa-bc0e-407d-936e-aa067278d2c5",
+            "containerId": "",
+            "name": "SendHSM com Imagem e Variavel",
+            "url": "https://app.hiplatform.com/platform/whatsappconnect/1.0/api/message/template/6f47128d-f531-4a47-930d-d339be5be091",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-09-17T15:47:25.881Z",
+            "modified": "2024-09-17T16:00:27.520Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ==",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"type\": \"json\",\n  \"to\": \"5511991331240\",\n  \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\n  \"elementName\": \"oferta_sjrp\",\n  \"components\": [\n    {\n      \"type\": \"header\",\n      \"parameters\": [\n        {\n          \"type\": \"image\",\n          \"image\": {\n            \"link\": \"https://drive.google.com/uc?export=download&id=15unecS8p05NehYfM_3chE1j6NIgom-0q\"\n          }\n        }\n      ]\n    },\n    {\n      \"type\": \"body\",\n      \"parameters\": [\n        {\n          \"name\": \"1\",\n          \"type\": \"text\",\n          \"text\": \"Luiz\"\n        },\n        {\n          \"name\": \"2\",\n          \"type\": \"text\",\n          \"text\": \"Luiz2\"\n        },\n        {\n          \"name\": \"3\",\n          \"type\": \"text\",\n          \"text\": \"Luiz3\"\n        }\n      ]\n    }\n  ],\n  \"form\": []\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "422fcd5e-6b48-4554-a26f-8137287d6c32",
+            "colId": "f55c21fa-bc0e-407d-936e-aa067278d2c5",
+            "containerId": "",
+            "name": "SendHSM com Imagem",
+            "url": "https://app.hiplatform.com/platform/whatsappconnect/1.0/api/message/template/6f47128d-f531-4a47-930d-d339be5be091",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-09-17T15:56:22.114Z",
+            "modified": "2024-09-17T15:59:27.861Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ==",
+                    "isDisabled": true
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"type\": \"json\",\n  \"to\": \"5511991331240\",\n  \"namespace\": \"eea479f1_3de4_4876_b75e_3e2e5920c53e\",\n  \"elementName\": \"plus2\",\n  \"components\": [\n    {\n      \"type\": \"header\",\n      \"parameters\": [\n        {\n          \"type\": \"image\",\n          \"image\": {\n            \"link\": \"https://drive.google.com/uc?export=download&id=15unecS8p05NehYfM_3chE1j6NIgom-0q\"\n          }\n        }\n      ]\n    }\n  ],\n  \"form\": []\n}",
+                "form": []
             }
         }
     ],

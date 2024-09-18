@@ -178,6 +178,23 @@
                     "isPath": false
                 }
             ]
+        },
+        {
+            "_id": "02b1b9e9-4106-438c-81aa-126462e8bbe7",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "RefreshConfiguration Local",
+            "url": "http://127.0.0.1/refresh_configuration",
+            "method": "POST",
+            "sortNum": 75000,
+            "created": "2024-09-18T02:20:20.552Z",
+            "modified": "2024-09-18T02:40:48.408Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n}",
+                "form": []
+            }
         }
     ]
 }

@@ -1,0 +1,179 @@
+{
+    "_id": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+    "colName": "HSM IP Local",
+    "created": "2024-09-18T00:06:58.834Z",
+    "sortNum": 158750,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d133b459-fb10-4297-a9a7-ca30f26d34ee",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia_HSM Imagem e variaveis",
+            "url": "http://127.0.0.1/envia_hsm",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-18T00:07:13.166Z",
+            "modified": "2024-09-18T00:07:13.166Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"oferta_sjrp\",\n  \"to\": \"5511991331240\",\n  \"image_link\": \"https://drive.google.com/uc?export=download&id=15unecS8p05NehYfM_3chE1j6NIgom-0q\",\n  \"variables\": [\n    {\n      \"name\": \"1\",\n      \"type\": \"text\",\n      \"text\": \"Luiz\"\n    },\n    {\n      \"name\": \"2\",\n      \"type\": \"text\",\n      \"text\": \"Luiz2\"\n    },\n    {\n      \"name\": \"3\",\n      \"type\": \"text\",\n      \"text\": \"Luiz3\"\n    }\n  ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5c6bbe1d-9161-4b54-834c-31dedc172319",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia_HSM Imagem",
+            "url": "http://127.0.0.1/envia_hsm",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-09-18T00:07:15.546Z",
+            "modified": "2024-09-18T00:07:15.546Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"plus2\",\n  \"to\": \"5511991331240\",\n  \"image_link\": \"https://drive.google.com/uc?export=download&id=15unecS8p05NehYfM_3chE1j6NIgom-0q\",\n  \"variables\": []\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "352f307f-7f02-494d-b466-756e57781b33",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia_HSM variaveis",
+            "url": "http://127.0.0.1/envia_hsm",
+            "method": "POST",
+            "sortNum": 65000,
+            "created": "2024-09-18T00:07:18.130Z",
+            "modified": "2024-09-18T00:07:18.130Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"pre_viagem\",\n  \"to\": \"5511991331240\",\n  \"variables\": [\n    {\n      \"name\": \"1\",\n      \"type\": \"texto\",\n      \"text\": \"Luiz\"\n    }\n  ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "641dee5f-f102-4237-af58-417b340a725b",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia_HSM DB com Variaveis Campo",
+            "url": "http://127.0.0.1/envia_hsm_db",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-09-18T00:07:20.440Z",
+            "modified": "2024-09-18T05:04:06.336Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"novo_voucher_inter\",\n  \"AAAresult\": 0,\n  \"AAAto\": \"5511991331240\",\n  \"file_name\": \"seu_voucher.pdf\",\n  \"file_bucket\": \"78723.pdf\",\n  \"bucket_name\": \"vb_vouchers\",\n  \"sql\": \"EXECUTE WA_PegaDadosVoucher 78722\", \n  \"variables\": [\n    {\n      \"name\": \"1\",\n      \"type\": \"campo\",\n      \"campo\": \"primeiro_nome\"\n    }\n  ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6131c49d-963a-49eb-a854-6e5e80103eba",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia_HSM DB com Variaveis Valor",
+            "url": "http://127.0.0.1/envia_hsm_db",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-09-18T00:07:22.640Z",
+            "modified": "2024-09-18T05:04:19.246Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"novo_voucher_inter\",\n  \"result\": 0,\n  \"AAAto\": \"5511991331240\",\n  \"file_name\": \"seu_voucher.pdf\",\n  \"file_bucket\": \"78722.pdf\",\n  \"bucket_name\": \"vb_vouchers\",\n  \"sql\": \"EXECUTE WA_PegaDadosVoucher 78722\", \n  \"variables\": [\n    {\n      \"name\": \"1\",\n      \"type\": \"text\",\n      \"text\": \"Luiz Fernando\"\n    }\n  ]\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "402242ed-c5b8-42e0-9486-e5eff7e9806a",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia HSM DB template configuration",
+            "url": "http://127.0.0.1/envia_hsm_db",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-09-18T00:07:27.688Z",
+            "modified": "2024-09-18T00:07:27.688Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"voucher\",\n  \"Ato\": \"5511991331240\",\n  \"file_name\": \"seu_voucher.pdf\",\n  \"file_bucket\": \"78722.pdf\",\n  \"bucket_name\": \"vb_vouchers\",\n  \"sql\": \"EXECUTE WA_PegaDadosVoucher 78722\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6d833482-7b48-409e-96ce-4bf93070d14b",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia_HSM file_bucket",
+            "url": "http://127.0.0.1/envia_hsm",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-09-18T00:07:29.688Z",
+            "modified": "2024-09-18T00:07:29.688Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"voucher\",\n  \"to\": \"5511991331240\",\n  \"file_name\": \"seu_voucher.pdf\",\n  \"file_bucket\": \"78900.pdf\",\n  \"bucket_name\": \"vb_vouchers\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f2b06427-1bb8-4a6b-b3e1-679ec9494a05",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia_HSM file_link",
+            "url": "http://127.0.0.1/envia_hsm",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-09-18T00:07:32.227Z",
+            "modified": "2024-09-18T00:07:32.227Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"voucher\",\n  \"to\": \"5511991331240\",\n  \"file_name\": \"seuvoucher.pdf\",\n  \"file_link\": \"https://storage.googleapis.com/vb_vouchers/1234.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=bot-api-gcs%40molten-catalyst-397805.iam.gserviceaccount.com%2F20240917%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240917T145514Z&X-Goog-Expires=6000&X-Goog-SignedHeaders=host&X-Goog-Signature=02a3a2b521b195f284f1ad61cb53ae3e804180a19c76446982f40651ffb56df30b9c094669de919d7f2a0eebc326f1adf88b7c401f2e82311ea105309d47b3a8c5d34924aa56c1d2edc436ba65fa02d51cb6dc5f622aed0960dc721296cc8ed9ccaef9ba381439a9feefc22e642a243a3266cc5dcd749f1a80a072c4f0eb99d657fa35439e5e7b4dca4579b02f0e583da5186f10f2fa1b6e9ef8b8d0cb05b9b962cd893a9b33806b1151db8bc8a024c01c399bba464136e50d1a79964c97cbfdc4c655861a6054b243a6e70ff6f7eb863246666a572bf5c89e743e8113f9c6391d176f7b22b9c2f316cdc9ff49d6932b5e4f762ceaaf28653f80595c54faf920\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f6d4e049-06d2-491f-9835-6f767e4caa2b",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia_HSM DB",
+            "url": "http://127.0.0.1/envia_hsm_db",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-18T00:18:33.331Z",
+            "modified": "2024-09-18T00:18:33.331Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"voucher\",\n  \"Ato\": \"5511991331240\",\n  \"file_name\": \"seu_voucher.pdf\",\n  \"file_bucket\": \"78722.pdf\",\n  \"bucket_name\": \"vb_vouchers\",\n  \"sql\": \"EXECUTE WA_PegaDadosVoucher 78722\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "814f63cb-67ec-4d0b-bae1-8f8d560c47d5",
+            "colId": "b07a4018-b105-4eca-8fd5-3ea8c4ecd8fd",
+            "containerId": "",
+            "name": "Envia HSM DB template configuration",
+            "url": "http://127.0.0.1/envia_hsm_db",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-09-18T03:38:36.508Z",
+            "modified": "2024-09-18T06:01:58.595Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"template\": \"voucher\",\n  \"template_configuration\": \"modelos_vouchers\",\n  \"result\": 0,\n  \"Ato\": \"5511991331240\",\n  \"file_name\": \"seu_voucher.pdf\",\n  \"file_bucket\": \"78722.pdf\",\n  \"bucket_name\": \"vb_vouchers\",\n  \"sql\": \"EXECUTE WA_PegaDadosVoucher 78722\"\n}",
+                "form": []
+            }
+        }
+    ]
+}
