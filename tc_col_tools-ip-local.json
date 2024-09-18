@@ -195,6 +195,23 @@
                 "raw": "{\n}",
                 "form": []
             }
+        },
+        {
+            "_id": "6b658733-15ea-4e56-a1a0-19a1a0efa9c9",
+            "colId": "aadf94f1-e027-4ff7-a14a-4869f9ed1775",
+            "containerId": "",
+            "name": "Hi Ticket Create Local",
+            "url": "http://127.0.0.1//hi_ticket_create",
+            "method": "POST",
+            "sortNum": 77500,
+            "created": "2024-09-18T21:41:52.619Z",
+            "modified": "2024-09-18T22:17:10.062Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"creator\": \"68cd1318-ea87-4bab-8645-4ecdfb9f6138\",\r\n  \"subject\": \"Teste Ticket Creation\",\r\n  \"description\": \"Enviei o TICKET eba\",\r\n  \"type\": \"97945b08-6432-4685-a83e-bae2898c139e\",\r\n  \"group\": \"5e02cf62-f285-4440-8a95-d51aaf95ae62\",\r\n  \"state\": \"85778fdb-fb31-11e4-83fb-122473ed82c1\",\r\n  \"responsible\": \"f60b53da-b8b5-428e-afc7-136646905cd2\",\r\n  \"file_name\": \"78722.pdf\",\r\n  \"file_bucket\": \"78722.pdf\",\r\n  \"bucket_name\": \"vb_vouchers\"\r\n}",
+                "form": []
+            }
         }
     ]
 }

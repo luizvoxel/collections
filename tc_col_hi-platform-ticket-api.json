@@ -110,7 +110,7 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.308Z",
-            "modified": "2024-05-29T15:27:21.155Z",
+            "modified": "2024-09-18T18:17:00.774Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -127,7 +127,7 @@
             ],
             "body": {
                 "type": "json",
-                "raw": "{\n\t\"creator\": \"68cd1318-ea87-4bab-8645-4ecdfb9f6138\",\n\t\"subject\": \"Teste tkt Luiz\",\n\t\"description\": 'Navio: Costa Pacífica\\nData: 05/01/25 - 7 noites\\nItinerário: Santos/Ilhabela/Porto Belo/Balneário Camboriú/Angra dos Reis/Rio de Janeiro/Santos\\nTIpo Cabine: Interna\\nAcomodacao: Individual\\nValor Tarifa: R$5730\\nValor Taxas: R$1820\\nValor Total: R$ 7550\\nParcelas: 12X de R$629.17\\nCodigo Saida: PA07250105\\nLoc Grupo: AHCA6',\n\t\"type\": \"97945b08-6432-4685-a83e-bae2898c139e\",\n\t\"group\": \"5e02cf62-f285-4440-8a95-d51aaf95ae62\",\n\t\"state\": \"85778fdb-fb31-11e4-83fb-122473ed82c1\"\n}",
+                "raw": "{\n\t\"creator\": \"68cd1318-ea87-4bab-8645-4ecdfb9f6138\",\n\t\"subject\": \"Teste Protocolo de HSM Enviado\",\n\t\"description\": \"Enviei o HSM XPTO EM XYZW\",\n\t\"type\": \"97945b08-6432-4685-a83e-bae2898c139e\",\n\t\"group\": \"5e02cf62-f285-4440-8a95-d51aaf95ae62\",\n\t\"state\": \"85778fdb-fb31-11e4-83fb-122473ed82c1\"\n}",
                 "form": []
             }
         },
@@ -269,6 +269,54 @@
                     "isPath": false
                 }
             ]
+        },
+        {
+            "_id": "bd317ce8-2039-4fbf-901f-12a66820e935",
+            "colId": "b8e138a5-2aca-40e4-91d7-2c762a12df7a",
+            "containerId": "",
+            "name": "Hi_Ticcket Adicioina Anexo",
+            "url": "https://api.directtalk.com.br/1.5/ticket/tickets/912771e5-bb0f-470b-bd03-6765db9aff2d/attachments?userid=68cd1318-ea87-4bab-8645-4ecdfb9f6138&publicAttach=true",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-09-18T18:17:11.431Z",
+            "modified": "2024-09-18T18:48:11.634Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Basic dmpidDgzN2ZmM2U3LWZjNTUtNDMwNi1hM2NlLWEyYWQ5YjZmNDdlNzpxaDlja2R6bzk5ZjhqNjJmMGRqbQ=="
+                },
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "multipart/form-data; boundary=Boundary_XXXXXXXXX"
+                }
+            ],
+            "params": [
+                {
+                    "name": "userid",
+                    "value": "68cd1318-ea87-4bab-8645-4ecdfb9f6138",
+                    "isPath": false
+                },
+                {
+                    "name": "publicAttach",
+                    "value": "true",
+                    "isPath": false
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "",
+                        "value": "c:\\vb_shared\\vouchers\\1234.pdf"
+                    }
+                ]
+            }
         }
     ]
 }
