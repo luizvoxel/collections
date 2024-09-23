@@ -140,7 +140,7 @@
             "method": "POST",
             "sortNum": 50000,
             "created": "2024-05-21T20:46:51.093Z",
-            "modified": "2024-05-21T20:52:49.280Z",
+            "modified": "2024-09-19T15:10:51.469Z",
             "headers": [
                 {
                     "name": "Authorization",
@@ -157,7 +157,7 @@
             ],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"creator\": \"f60b53da-b8b5-428e-afc7-136646905cd2\",\n    \"subject\": \"[WPP BOT] Compra - Bloqueio Costa - $$hi_current_date $$hi_current_hour\",\n    \"description\": \"Do Luiz com campo\",\n\n    \"type\": \"97945b08-6432-4685-a83e-bae2898c139e\",\n    \"group\": \"55da5021-1464-42a7-a875-c50b72bf28a7\",\n    \"state\": \"85778fdb-fb31-11e4-83fb-122473ed82c1\"\n}",
+                "raw": "{\n  \"creator\": \"f60b53da-b8b5-428e-afc7-136646905cd2\",\n  \"subject\": \"[HSM]19/09/24 12:08:56 novo_voucher_inter FILE #78722.pdf\",\n  \"description\": \"Enviado para whatsapp:5511991331240\\nVariaveis:\\n[{\\\"name\\\": \\\"1\\\", \\\"type\\\": \\\"text\\\", \\\"text\\\": \\\"Luiz\\\"}]\",\n  \"type\": \"70003f7f-f0cd-4837-a2d3-41cb1e682c23\",\n  \"group\": \"2f1884e2-ea3c-44f2-a9a8-4ec3097caf38\",\n  \"state\": \"8579b02d-fb31-11e4-83fb-122473ed82c1\",\n  \"responsible\": \"f60b53da-b8b5-428e-afc7-136646905cd2\"\n}",
                 "form": []
             }
         },

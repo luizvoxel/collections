@@ -68,11 +68,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.649Z",
-            "modified": "2024-09-18T02:11:31.468Z",
+            "modified": "2024-09-19T19:16:50.001Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"NomeArquivoRender\": \"Tests/TesteRender\",\n  \"aNomeArquivoRender\": \"BotAtendimento\",\n  \"IndexRender\": 0,\n  \n  \"Tem_PerguntaNumeroRender\": \"False\",\n  \"RespostaNumeroRender\": 0,\n  \n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"xxxtextoxxx\",\n  \n  \"AeMail\": \"teste@viajarbarato.com.br\",\n  \"eMail\": \"lecticia@viajarbarato.com.br\",\n\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\n   \"Variaveis\": {\n    \"UF\": \"SP\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"233855\",\n    \"data_sem_contato\": \"None\",\n    \"idade\": \"44\",\n    \"infos_em_processamento\": \"xxxtextoxxx\",\n    \"navegacao\": [\n      0,\n      219,\n      249,\n      257,\n      266,\n      274\n    ],\n    \"primeiro_nome\": \"Luiz\",\n    \"tem_reembolso\": \"1\"\n  }\n}",
+                "raw": "{\n  \"NomeArquivoRender\": \"BotAtendimento/FinalizarAtendimento\",\n  \"aNomeArquivoRender\": \"BotAtendimento/Lead/LeadInicialRaiz\",\n  \"IndexRender\": 0,\n  \n  \"Tem_PerguntaNumeroRender\": \"False\",\n  \"RespostaNumeroRender\": 2,\n  \n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"xxxtextoxxx\",\n  \n  \"eMail\": \"teste@viajarbarato.com.br\",\n  \"eMail\": \"luiz@viajarbarato.com.br\",\n\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\n   \"Variaveis\": {\n    \"UF\": \"SP\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"233855\",\n    \"data_sem_contato\": \"None\",\n    \"idade\": \"44\",\n    \"infos_em_processamento\": \"xxxtextoxxx\",\n    \"navegacao\": [\n      0,\n      219,\n      249,\n      257,\n      266,\n      274\n    ],\n    \"primeiro_nome\": \"Luiz\",\n    \"tem_reembolso\": \"1\"\n  }\n}",
                 "form": []
             }
         },
