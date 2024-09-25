@@ -65,11 +65,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.710Z",
-            "modified": "2024-09-18T22:19:57.307Z",
+            "modified": "2024-09-24T22:21:55.302Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"NomeArquivoRender\": \"BotPopup\",\n  \"IndexRender\": 17,\n  \"Tem_PerguntaNumeroRender\": \"False\",\n  \"RespostaNumeroRender\": 0,\n  \"RespostaTextoRender\": \"oi\",\n  \"Tem_PerguntaTextoRender\": \"True\",\n  \"eMail\": \"a@b.com\",\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n  \"Variaveis\": {\n    \"PassouBotPopup\": \"true\",\n    \"UF\": \"None\",\n    \"client_id\": \"0a710609-fe45-42ab-8c4e-e564a55eb5e4\",\n    \"cod_cliente\": \"None\",\n    \"data_sem_contato\": \"None\",\n    \"idade\": \"None\",\n    \"last_leitordados_index\": 0,\n    \"last_submenu_index\": 16,\n    \"navegacao\": [\n      -1\n    ],\n    \"primeiro_nome\": \"None\",\n    \"tem_reembolso\": \"0\"\n  }\n}",
+                "raw": "{\n  \"NomeArquivoRender\": \"BotAtendimento\",\n  \"IndexRender\": 139,\n  \"Tem_PerguntaNumeroRender\": \"True\",\n  \"RespostaNumeroRender\": 1,\n  \"RespostaTextoRender\": \"oi\",\n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"eMail\": \"adm.ferrari@gmail.com\",\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n  \"Variaveis\": {\n    \"Continuar\": \"oi\",\n    \"PassouBotPopup\": \"true\",\n    \"UF\": \"SC\",\n    \"client_id\": \"16e80b89-c9a5-4ded-8b58-e760423e7eb1\",\n    \"cod_cliente\": \"282542\",\n    \"data_sem_contato\": \"None\",\n    \"idade\": \"37\",\n    \"navegacao\": [\n      0,\n      269,\n      350,\n      360,\n      370\n    ],\n    \"primeiro_nome\": \"Michel\",\n    \"tem_reembolso\": \"0\"\n  }\n}",
                 "form": []
             }
         },

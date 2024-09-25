@@ -68,11 +68,11 @@
             "method": "POST",
             "sortNum": 40000,
             "created": "2024-02-27T23:06:13.649Z",
-            "modified": "2024-09-19T19:16:50.001Z",
+            "modified": "2024-09-24T23:47:16.784Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"NomeArquivoRender\": \"BotAtendimento/FinalizarAtendimento\",\n  \"aNomeArquivoRender\": \"BotAtendimento/Lead/LeadInicialRaiz\",\n  \"IndexRender\": 0,\n  \n  \"Tem_PerguntaNumeroRender\": \"False\",\n  \"RespostaNumeroRender\": 2,\n  \n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"xxxtextoxxx\",\n  \n  \"eMail\": \"teste@viajarbarato.com.br\",\n  \"eMail\": \"luiz@viajarbarato.com.br\",\n\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\n   \"Variaveis\": {\n    \"UF\": \"SP\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"233855\",\n    \"data_sem_contato\": \"None\",\n    \"idade\": \"44\",\n    \"infos_em_processamento\": \"xxxtextoxxx\",\n    \"navegacao\": [\n      0,\n      219,\n      249,\n      257,\n      266,\n      274\n    ],\n    \"primeiro_nome\": \"Luiz\",\n    \"tem_reembolso\": \"1\"\n  }\n}",
+                "raw": "{\n  \"NomeArquivoRender\": \"BotAtendimento\",\n  \"bNomeArquivoRender\": \"Libs/EnviaHSM\",\n  \"aNomeArquivoRender\": \"Libs/ExisteFileBucket\",\n  \"IndexRender\": 139,\n  \n  \"Tem_PerguntaNumeroRender\": \"True\",\n  \"RespostaNumeroRender\": 1,\n  \n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"RespostaTextoRender\": \"xxxtextoxxx\",\n  \n  \"eMail\": \"teste@viajarbarato.com.br\",\n  \"AeMail\": \"adm.ferrari@gmail.com\",\n\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n\n\"Variaveis\":  {\n    \"Continuar\": \"xxxtextoxxx\",\n    \"PassouBotPopup\": \"true\",\n    \"UF\": \"SP\",\n    \"client_id\": \"bb4f5c2c-b145-4075-876d-9ec8c0fd8372\",\n    \"cod_cliente\": \"233855\",\n    \"data_sem_contato\": \"None\",\n    \"idade\": \"44\",\n    \"infos_em_processamento\": \"xxxtextoxxx\",\n    \"navegacao\": [\n      0,\n      141,\n      141\n    ],\n    \"primeiro_nome\": \"José\",\n    \"tem_reembolso\": \"1\"\n  }\n}",
                 "form": []
             }
         },
@@ -102,11 +102,11 @@
             "method": "POST",
             "sortNum": 50000,
             "created": "2024-05-28T14:24:05.704Z",
-            "modified": "2024-09-10T20:41:52.256Z",
+            "modified": "2024-09-24T22:23:00.388Z",
             "headers": [],
             "body": {
                 "type": "json",
-                "raw": "{\n\n\"NomeArquivoRender\": \"BotAtendimento3/Lead/SomenteLead\",\n\"IndexRender\" : 16,\n\n\"Tem_PerguntaNumeroRender\": \"False\",\n\"RespostaNumeroRender\": 0,\n\n\"RespostaTextoRender\": \"\",\n\"Tem_PerguntaTextoRender\": \"False\",\n\n    \"eMail\": \"ateste@viajarbarato.com.br\",\n\n    \"NumeroWhatsapp\": \"5511991331240\",\n\n    \"NomeWhatsapp\": \"Luiz Fernando Vieira\", \n\n\n\n\n    \"Tem_MsgRender\": \"True\", \n\n\n    \"SairRender\" : \"False\", \n\n\"Variaveis\" : {\n    \"linha_planilha\": 6,\n    \"navegacao\": [\n 2,18\n    ]\n  }\n}",
+                "raw": "{\n  \"NomeArquivoRender\": \"BotAtendimento\",\n  \"IndexRender\": 139,\n  \"Tem_PerguntaNumeroRender\": \"True\",\n  \"RespostaNumeroRender\": 1,\n  \"RespostaTextoRender\": \"oi\",\n  \"Tem_PerguntaTextoRender\": \"False\",\n  \"eMail\": \"adm.ferrari@gmail.com\",\n  \"NumeroWhatsapp\": \"5511991331240\",\n  \"NomeWhatsapp\": \"Luiz Fernando Vieira\",\n  \"Tem_MsgRender\": \"True\",\n  \"SairRender\": \"False\",\n  \"Variaveis\": {\n    \"Continuar\": \"oi\",\n    \"PassouBotPopup\": \"true\",\n    \"UF\": \"SC\",\n    \"client_id\": \"16e80b89-c9a5-4ded-8b58-e760423e7eb1\",\n    \"cod_cliente\": \"282542\",\n    \"data_sem_contato\": \"None\",\n    \"idade\": \"37\",\n    \"navegacao\": [\n      0,\n      269,\n      350,\n      360,\n      370\n    ],\n    \"primeiro_nome\": \"Michel\",\n    \"tem_reembolso\": \"0\"\n  }\n}",
                 "form": []
             }
         },
